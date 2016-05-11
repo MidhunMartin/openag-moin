@@ -346,9 +346,8 @@ h6 {
 }
 
 #page {
-    margin: 0;
+    margin: 32px 0;
     padding: 0px 24px 24px 24px;
-    overflow: hidden;
 
     /* theses are some Firefox 1.5b1 specific extensions, see also the CSS3 draft.
     -moz-column-width: 25em;
