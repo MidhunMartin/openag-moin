@@ -157,9 +157,9 @@ class Theme(ThemeBase):
 
             # Footer
             u'<div id="footer">',
-            # self.credits(d),
-            # self.showversion(d, **keywords),
             self.editbar(d),
+            self.credits(d),
+            self.showversion(d, **keywords),
             u'</div>',
 
             # Post footer custom html
