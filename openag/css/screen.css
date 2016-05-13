@@ -433,7 +433,9 @@ input.button {
     */
 }
 
-#content > p {
+#content p,
+#content ol,
+#content ul {
     max-width: 44em;
 }
 
